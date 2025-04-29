@@ -1,0 +1,13 @@
+XGBRegressor with GridSearch: 98.71
+XGBRegressor with Bayesian Optimization: 98.79
+XGBRegressor(with BO) + LGBM + RandomForestRegressor (Using StackingRegressor): 98.82
+XGBRegressor(40%,BO) + LGBM(30%) + RandomForestRegressor(30%): 98.83
+Random Forest with Bayesian Optimization: 98.70
+XGBRegressor(with BO) + LGBM + RandomForestRegressor(With BO)(Using StackingRegressor): 98.82
+XGBRegressor(40%,BO) + LGBM(20%) + RandomForestRegressor(40%,BO): 98.82
+LGBM with Bayesian Optimization: 98.78
+XGBRegressor(with BO) + LGBM(with BO) + RandomForestRegressor(With BO)(Using StackingRegressor): 98.83
+XGBRegressor(40%,BO) + LGBM(30%,BO) + RandomForestRegressor(30%,BO): 98.82
+XGBRegressor(with BO) + LGBM(with BO)(Using StackingRegressor): 98.83
+XGBRegressor(with BO) + RandomForestRegressor(with BO)(Using StackingRegressor): 98.83
+LGBM(with BO) + RandomForestRegressor(With BO)(Using StackingRegressor): 98.82
