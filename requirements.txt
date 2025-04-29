@@ -6,3 +6,4 @@ numpy==1.26.4
 kaleido==0.2.1
 scikit-learn==1.3.0
 xgboost
+statsmodels
